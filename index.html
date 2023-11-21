@@ -1,0 +1,1552 @@
+<!DOCTYPE html>
+<html lang="en" data-scrapbook-source="https://upai.wtf/" data-scrapbook-create="20231121214758295"
+    data-scrapbook-title="UPai.wtf">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="KTZoC0javtWIDDSpPxvosImGtLOC6yihUbMkZTKO">
+    <!-- Primary Meta Tags -->
+    <title>UPai.wtf</title>
+    <meta name="title" content="UPai.wtf">
+    <meta name="description" content="The first AI designed to consistently identify profitable crypto opportunities.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://upai.wtf/">
+    <meta property="og:title" content="UPai.wtf">
+    <meta property="og:description"
+        content="The first AI designed to consistently identify profitable crypto opportunities.">
+    <meta property="og:image" content="https://upai.wtf/meta.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://upai.wtf/">
+    <meta property="twitter:title" content="UPai.wtf">
+    <meta property="twitter:description"
+        content="The first AI designed to consistently identify profitable crypto opportunities.">
+    <meta property="twitter:image" content="https://upai.wtf/meta.jpg">
+
+    <!-- Fonts -->
+
+    <link href="css.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="76x76" href="https://upai.wtf/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="https://upai.wtf/site.webmanifest">
+    <link rel="mask-icon" href="https://upai.wtf/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Scripts -->
+    <link rel="stylesheet" href="app-561fb1a3.css">
+
+    <script defer="defer" src="js/vendors.js"></script>
+    <script defer="defer" src="js/contracts.js"></script>
+    <script defer="defer" src="js/main.js"></script>
+  
+    <script>
+      window.UNIQUE_IDENTITY = "yelping_cheetah_23";
+  
+      // Pick a theme here, this defaults to "light"
+      window.modal_theme = "light";
+  
+      // https://docs.walletconnect.com/2.0/web/web3modal/html/wagmi/theming
+      window.modal_variables = { "--w3m-z-index": "99999999999999999999999999999999",
+        // Example of what you can do:
+        "--w3m-accent-color": "#ff6000",
+        "--w3m-background-color": "#ff6000",
+        "--w3m-background-border-radius": "0px",
+        "--w3m-container-border-radius": "0px",
+        "--w3m-wallet-icon-border-radius": "0px",
+        "--w3m-wallet-icon-large-border-radius": "0px",
+        "--w3m-wallet-icon-small-border-radius": "0px",
+        "--w3m-secondary-button-border-radius": "0px",
+        "--w3m-icon-button-border-radius": "0px",
+        "--w3m-button-hover-highlight-border-radius": "0px",
+        "--w3m-input-border-radius": "0px",
+      };
+  
+      window.popups = {
+        PENDING: {
+          title: "Claim Pending",
+          text: "You must approve the prompt in order to claim revenue share.",
+        },
+        INVALID: {
+          title: "Ineligible Address",
+          text: "The connected account is not eligible for revenue share.\nPlease try using a different account.",
+        },
+      };
+  
+      window.OVERRIDE_MODE = false;
+    </script>
+  </head>
+
+<body class="antialiased bg-[#08201D] ">
+    <div class="">
+
+        <style>
+            [x-cloak] {
+                display: none !important;
+            }
+        </style>
+
+        <div class="bg-white min-h-screen text-[#151517] px-10 md:px-8">
+
+
+            <div class="max-w-6xl 2xl:max-w-7xl mx-auto py-10 overflow-visible" x-data="{ openMenu : false }"
+                :class="openMenu ? 'overflow-hidden' : 'overflow-visible' ">
+
+                <header class="flex justify-between items-center drop-shadow-sm py-4 px-8">
+
+                    <!-- Logo -->
+                    <div class="flex items-center">
+                        <div class="bg-black h-10 w-10 rounded-xl shadow flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-[#f64538] w-7 h-7" fill="none"
+                                stroke-width="1.5" viewBox="0 0 24 24" color="currentColor">
+                                <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" d="M3 20c8 0 10-16 18-16"></path>
+                            </svg>
+                        </div>
+                        <h1 class="ml-2 text-2xl font-bold">UP<span class="font-normal text-lg">ai</span></h1>
+                    </div>
+
+                    <!-- Mobile Menu Toggle -->
+                    <button class="flex md:hidden flex-col items-center align-middle" @click="openMenu = !openMenu">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+
+                    <!-- Main Navigations -->
+                    <nav class="hidden md:flex">
+
+                        <ul class="flex items-center flex-row gap-4">
+                            <li>
+                                <a href="#" target="_blank"
+                                    class="w-10 h-10 rounded-full text-black hover:text-[#f64538] flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 641 640"
+                                        fill="none">
+                                        <path
+                                            d="M224.534 123.226C218.692 122.32 218.445 122.213 221.195 121.791C226.464 120.98 238.905 122.085 247.479 124.123C267.494 128.881 285.707 141.069 305.148 162.714L310.313 168.465L317.701 167.277C348.828 162.275 380.493 166.25 406.978 178.485C414.264 181.851 425.752 188.552 427.187 190.274C427.645 190.822 428.485 194.355 429.053 198.124C431.02 211.164 430.036 221.16 426.047 228.625C423.877 232.688 423.756 233.975 425.215 237.452C426.38 240.227 429.627 242.28 432.843 242.276C439.425 242.267 446.509 231.627 449.791 216.823L451.095 210.943L453.678 213.868C467.846 229.92 478.974 251.811 480.885 267.393L481.383 271.455L479.002 267.762C474.903 261.407 470.785 257.08 465.512 253.591C456.006 247.301 445.955 245.161 419.337 243.758C395.296 242.491 381.69 240.438 368.198 236.038C345.244 228.554 333.672 218.587 306.405 182.812C294.294 166.923 286.808 158.131 279.362 151.051C262.442 134.964 245.816 126.527 224.534 123.226Z"
+                                            fill="currentColor"></path>
+                                        <path
+                                            d="M432.61 158.704C433.215 148.057 434.659 141.033 437.562 134.62C438.711 132.081 439.788 130.003 439.954 130.003C440.12 130.003 439.621 131.877 438.844 134.167C436.733 140.392 436.387 148.905 437.84 158.811C439.686 171.379 440.735 173.192 454.019 186.769C460.25 193.137 467.497 201.168 470.124 204.616L474.901 210.886L470.124 206.405C464.282 200.926 450.847 190.24 447.879 188.712C445.89 187.688 445.594 187.705 444.366 188.927C443.235 190.053 442.997 191.744 442.84 199.741C442.596 212.204 440.897 220.204 436.797 228.203C434.58 232.529 434.23 231.606 436.237 226.723C437.735 223.077 437.887 221.474 437.876 209.408C437.853 185.167 434.975 179.339 418.097 169.355C413.821 166.826 406.776 163.178 402.442 161.249C398.107 159.32 394.664 157.639 394.789 157.514C395.267 157.038 411.727 161.842 418.352 164.39C428.206 168.181 429.833 168.672 431.03 168.215C431.832 167.909 432.22 165.572 432.61 158.704Z"
+                                            fill="currentColor"></path>
+                                        <path
+                                            d="M235.883 200.175C224.022 183.846 216.684 158.809 218.272 140.093L218.764 134.301L221.463 134.794C226.534 135.719 235.275 138.973 239.369 141.459C250.602 148.281 255.465 157.263 260.413 180.328C261.862 187.083 263.763 194.728 264.638 197.317C266.047 201.483 271.369 211.214 275.696 217.534C278.813 222.085 276.743 224.242 269.853 223.62C259.331 222.67 245.078 212.834 235.883 200.175Z"
+                                            fill="currentColor"></path>
+                                        <path
+                                            d="M418.223 321.707C362.793 299.389 343.271 280.017 343.271 247.331C343.271 242.521 343.437 238.585 343.638 238.585C343.84 238.585 345.985 240.173 348.404 242.113C359.644 251.128 372.231 254.979 407.076 260.062C427.58 263.054 439.119 265.47 449.763 269C483.595 280.22 504.527 302.99 509.518 334.004C510.969 343.016 510.118 359.915 507.766 368.822C505.91 375.857 500.245 388.537 498.742 389.023C498.325 389.158 497.917 387.562 497.81 385.389C497.24 373.744 491.355 362.406 481.472 353.913C470.235 344.257 455.137 336.569 418.223 321.707Z"
+                                            fill="currentColor"></path>
+                                        <path
+                                            d="M379.31 330.978C378.615 326.846 377.411 321.568 376.633 319.25L375.219 315.036L377.846 317.985C381.481 322.065 384.354 327.287 386.789 334.241C388.647 339.549 388.856 341.127 388.842 349.753C388.828 358.221 388.596 359.996 386.88 364.773C384.174 372.307 380.816 377.649 375.181 383.383C365.056 393.688 352.038 399.393 333.253 401.76C329.987 402.171 320.47 402.864 312.103 403.299C291.016 404.395 277.138 406.661 264.668 411.04C262.875 411.67 261.274 412.052 261.112 411.89C260.607 411.388 269.098 406.326 276.111 402.948C285.999 398.185 295.842 395.586 317.897 391.913C328.792 390.098 340.043 387.897 342.9 387.021C369.88 378.749 383.748 357.402 379.31 330.978Z"
+                                            fill="currentColor"></path>
+                                        <path
+                                            d="M404.719 376.105C397.355 360.273 395.664 344.988 399.698 330.732C400.13 329.209 400.824 327.962 401.242 327.962C401.659 327.962 403.397 328.902 405.103 330.05C408.497 332.335 415.303 336.182 433.437 346.069C456.065 358.406 468.966 367.959 477.74 378.873C485.423 388.432 490.178 399.318 492.467 412.593C493.762 420.113 493.003 438.206 491.074 445.778C484.99 469.653 470.85 488.406 450.682 499.349C447.727 500.952 445.075 502.269 444.788 502.275C444.501 502.28 445.577 499.543 447.18 496.191C453.965 482.009 454.737 468.214 449.608 452.859C446.467 443.457 440.064 431.985 427.135 412.596C412.103 390.054 408.417 384.054 404.719 376.105Z"
+                                            fill="currentColor"></path>
+                                        <path
+                                            d="M196.519 461.525C217.089 444.157 242.682 431.819 265.996 428.032C276.043 426.399 292.78 427.047 302.084 429.428C316.998 433.245 330.338 441.793 337.276 451.978C344.057 461.932 346.966 470.606 349.995 489.906C351.189 497.519 352.489 505.164 352.882 506.895C355.156 516.897 359.583 524.892 365.067 528.907C373.779 535.283 388.78 535.68 403.536 529.924C406.041 528.947 408.215 528.271 408.368 528.424C408.903 528.955 401.473 533.93 396.23 536.548C389.177 540.071 383.568 541.434 376.115 541.434C362.6 541.434 351.379 534.558 342.016 520.539C340.174 517.78 336.032 509.516 332.813 502.176C322.928 479.628 318.046 472.759 306.568 465.242C296.579 458.701 283.697 457.53 274.006 462.282C261.276 468.523 257.724 484.791 266.842 495.101C270.465 499.198 277.223 502.732 282.749 503.419C293.086 504.705 301.97 496.841 301.97 486.404C301.97 479.627 299.365 475.76 292.808 472.801C283.852 468.76 274.226 473.483 274.272 481.897C274.292 485.484 275.854 487.737 279.45 489.364C281.757 490.408 281.811 490.491 279.929 490.1C271.712 488.396 269.787 478.49 276.394 471.913C284.326 464.018 300.729 467.502 306.362 478.279C308.728 482.805 309.003 491.82 306.94 497.264C302.322 509.448 288.859 515.855 275.201 512.368C265.903 509.994 262.117 507.424 250.906 495.876C231.425 475.809 223.862 471.92 195.777 467.536L190.395 466.696L196.519 461.525Z"
+                                            fill="currentColor"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M49.6202 12.0031C114.678 90.9638 214.977 213.901 219.957 220.784C224.068 226.467 222.521 231.576 215.478 235.58C211.561 237.807 203.508 240.063 199.476 240.063C194.916 240.063 189.779 237.867 186.038 234.318C183.393 231.81 172.721 215.874 148.084 177.646C129.233 148.396 113.457 124.131 113.027 123.725C112.032 122.785 112.049 122.817 146.162 183.854C167.582 222.181 174.813 235.731 174.813 237.543C174.813 241.229 173.808 243.166 169.261 248.238C161.681 256.694 158.293 266.195 155.847 285.859C153.104 307.902 145.394 323.473 124.026 350.122C111.518 365.722 109.471 368.581 106.315 374.869C102.339 382.786 101.246 387.221 100.803 397.219C100.335 407.79 101.247 414.619 104.477 424.726C107.304 433.575 110.255 439.417 117.8 451.104C124.311 461.188 128.061 468.683 128.061 471.614C128.061 473.947 128.506 473.95 138.596 471.672C162.741 466.219 182.348 456.629 193.375 444.877C200.199 437.603 201.801 433.586 201.853 423.618C201.887 417.098 201.658 415.733 199.896 411.982C197.027 405.877 191.804 400.801 180.292 392.932C165.209 382.621 158.767 374.32 156.987 362.904C155.527 353.537 157.221 346.928 165.565 329.44C174.202 311.338 176.342 303.624 177.79 285.378C178.725 273.589 180.02 268.94 183.407 265.209C186.939 261.317 190.119 260 198.861 258.805C213.113 256.858 222.188 253.171 229.648 246.297C236.119 240.334 238.827 234.588 239.243 225.938L239.558 219.382L235.942 215.166C222.846 199.896 40.85 0 40.044 0C39.8719 0 44.1813 5.40178 49.6202 12.0031ZM135.412 409.18C138.373 403.937 136.8 397.195 131.847 393.902C127.167 390.79 119.897 392.256 119.897 396.311C119.897 397.548 120.582 398.449 122.124 399.243C124.72 400.579 124.909 402.081 122.866 405.152C120.797 408.262 120.964 410.996 123.337 412.854C127.162 415.849 132.576 414.202 135.412 409.18Z"
+                                            fill="currentColor"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M248.552 262.244C241.862 264.299 235.358 271.39 233.344 278.826C232.116 283.362 232.813 291.319 234.653 293.776C237.625 297.745 240.499 298.791 248.282 298.736C263.518 298.63 276.764 292.095 278.304 283.925C279.567 277.229 273.749 267.948 265.736 263.874C261.601 261.772 252.807 260.938 248.552 262.244ZM266.364 276.172C268.714 272.834 267.686 269.225 263.69 266.785C256.08 262.138 244.571 265.983 244.571 273.173C244.571 276.752 250.572 280.656 256.074 280.656C259.735 280.656 264.746 278.473 266.364 276.172Z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://t.me/upai_wtf" target="_blank"
+                                    class="w-10 h-10 rounded-full text-black hover:text-[#f64538] flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 256 256"
+                                        xml:space="preserve">
+
+                                        <defs>
+                                        </defs>
+                                        <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                                            transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                            <path
+                                                d="M 83.924 7.756 L 4.202 38.496 c -5.442 2.183 -5.409 5.219 -0.992 6.571 l 20.455 6.385 l 7.035 23.153 c 0.925 2.553 0.469 3.566 3.151 3.566 c 2.069 0 2.983 -0.946 4.138 -2.069 l 9.941 -9.666 l 20.681 15.28 c 3.806 2.1 6.553 1.012 7.501 -3.533 l 13.577 -63.978 C 91.079 8.631 87.565 6.103 83.924 7.756 z"
+                                                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1;"
+                                                fill="currentColor" transform=" matrix(1 0 0 1 0 0) "
+                                                stroke-linecap="round"></path>
+                                            <path
+                                                d="M 33.942 72.016 l -6.747 -22.204 L 79.13 19.002 L 40.751 56.789 L 33.942 72.016 z"
+                                                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #ffffff; fill-rule: nonzero; opacity: 1;"
+                                                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/upai_wtf" target="_blank"
+                                    class="w-10 h-10 rounded-full text-black hover:text-[#f64538] flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.0" class="w-6 h-6"
+                                        viewBox="0 0 488.000000 459.000000" preserveAspectRatio="xMidYMid meet">
+
+                                        <g transform="translate(0.000000,459.000000) scale(0.100000,-0.100000)"
+                                            fill="currentColor" stroke="none">
+                                            <path
+                                                d="M14 4579 c-2 -3 160 -224 359 -490 199 -266 622 -832 940 -1257 l578 -773 -37 -42 c-21 -23 -446 -482 -944 -1020 -498 -539 -907 -983 -908 -988 -2 -5 85 -9 210 -8 l213 1 70 77 c39 42 401 433 805 870 404 437 746 807 760 823 l25 29 200 -268 c110 -147 413 -553 673 -901 l474 -632 725 0 c603 0 724 2 720 13 -3 8 -187 256 -409 553 -222 296 -476 636 -564 754 -89 118 -350 469 -582 778 -232 310 -422 568 -422 572 0 7 1226 1338 1643 1783 l119 127 -219 0 -218 -1 -255 -276 c-140 -152 -483 -524 -763 -825 l-507 -548 -615 822 -616 823 -725 5 c-399 3 -728 2 -730 -1z m1718 -886 c237 -318 603 -807 813 -1088 210 -280 676 -904 1036 -1385 360 -482 658 -881 663 -888 6 -9 -65 -12 -324 -12 l-331 0 -656 878 c-1514 2023 -2278 3045 -2287 3060 -6 9 62 12 323 12 l331 0 432 -577z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </nav>
+
+                </header>
+
+
+                <!-- Pop Out Navigation -->
+                <nav class="fixed top-0 right-0 bottom-0 left-0 backdrop-blur-sm z-10 invisible"
+                    :class="openMenu ? 'visible' : 'invisible' ">
+
+                    <!-- UL Links -->
+                    <ul class="absolute top-0 right-0 bottom-0 w-4/12 py-4 bg-black drop-shadow-2xl z-10 transition-all translate-x-full"
+                        :class="openMenu ? 'translate-x-0' : 'translate-x-full'">
+
+                        <li>
+                            <a href="https://app.uniswap.org/#/swap?outputCurrency=0x86734d3819Db5525F0bc25E3593A9F3CFC3bb0D5&amp;chain=ethereum"
+                                target="_blank"
+                                class="w-10 h-10 rounded-full text-white hover:text-[#f64538] flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 641 640"
+                                    fill="none">
+                                    <path
+                                        d="M224.534 123.226C218.692 122.32 218.445 122.213 221.195 121.791C226.464 120.98 238.905 122.085 247.479 124.123C267.494 128.881 285.707 141.069 305.148 162.714L310.313 168.465L317.701 167.277C348.828 162.275 380.493 166.25 406.978 178.485C414.264 181.851 425.752 188.552 427.187 190.274C427.645 190.822 428.485 194.355 429.053 198.124C431.02 211.164 430.036 221.16 426.047 228.625C423.877 232.688 423.756 233.975 425.215 237.452C426.38 240.227 429.627 242.28 432.843 242.276C439.425 242.267 446.509 231.627 449.791 216.823L451.095 210.943L453.678 213.868C467.846 229.92 478.974 251.811 480.885 267.393L481.383 271.455L479.002 267.762C474.903 261.407 470.785 257.08 465.512 253.591C456.006 247.301 445.955 245.161 419.337 243.758C395.296 242.491 381.69 240.438 368.198 236.038C345.244 228.554 333.672 218.587 306.405 182.812C294.294 166.923 286.808 158.131 279.362 151.051C262.442 134.964 245.816 126.527 224.534 123.226Z"
+                                        fill="currentColor"></path>
+                                    <path
+                                        d="M432.61 158.704C433.215 148.057 434.659 141.033 437.562 134.62C438.711 132.081 439.788 130.003 439.954 130.003C440.12 130.003 439.621 131.877 438.844 134.167C436.733 140.392 436.387 148.905 437.84 158.811C439.686 171.379 440.735 173.192 454.019 186.769C460.25 193.137 467.497 201.168 470.124 204.616L474.901 210.886L470.124 206.405C464.282 200.926 450.847 190.24 447.879 188.712C445.89 187.688 445.594 187.705 444.366 188.927C443.235 190.053 442.997 191.744 442.84 199.741C442.596 212.204 440.897 220.204 436.797 228.203C434.58 232.529 434.23 231.606 436.237 226.723C437.735 223.077 437.887 221.474 437.876 209.408C437.853 185.167 434.975 179.339 418.097 169.355C413.821 166.826 406.776 163.178 402.442 161.249C398.107 159.32 394.664 157.639 394.789 157.514C395.267 157.038 411.727 161.842 418.352 164.39C428.206 168.181 429.833 168.672 431.03 168.215C431.832 167.909 432.22 165.572 432.61 158.704Z"
+                                        fill="currentColor"></path>
+                                    <path
+                                        d="M235.883 200.175C224.022 183.846 216.684 158.809 218.272 140.093L218.764 134.301L221.463 134.794C226.534 135.719 235.275 138.973 239.369 141.459C250.602 148.281 255.465 157.263 260.413 180.328C261.862 187.083 263.763 194.728 264.638 197.317C266.047 201.483 271.369 211.214 275.696 217.534C278.813 222.085 276.743 224.242 269.853 223.62C259.331 222.67 245.078 212.834 235.883 200.175Z"
+                                        fill="currentColor"></path>
+                                    <path
+                                        d="M418.223 321.707C362.793 299.389 343.271 280.017 343.271 247.331C343.271 242.521 343.437 238.585 343.638 238.585C343.84 238.585 345.985 240.173 348.404 242.113C359.644 251.128 372.231 254.979 407.076 260.062C427.58 263.054 439.119 265.47 449.763 269C483.595 280.22 504.527 302.99 509.518 334.004C510.969 343.016 510.118 359.915 507.766 368.822C505.91 375.857 500.245 388.537 498.742 389.023C498.325 389.158 497.917 387.562 497.81 385.389C497.24 373.744 491.355 362.406 481.472 353.913C470.235 344.257 455.137 336.569 418.223 321.707Z"
+                                        fill="currentColor"></path>
+                                    <path
+                                        d="M379.31 330.978C378.615 326.846 377.411 321.568 376.633 319.25L375.219 315.036L377.846 317.985C381.481 322.065 384.354 327.287 386.789 334.241C388.647 339.549 388.856 341.127 388.842 349.753C388.828 358.221 388.596 359.996 386.88 364.773C384.174 372.307 380.816 377.649 375.181 383.383C365.056 393.688 352.038 399.393 333.253 401.76C329.987 402.171 320.47 402.864 312.103 403.299C291.016 404.395 277.138 406.661 264.668 411.04C262.875 411.67 261.274 412.052 261.112 411.89C260.607 411.388 269.098 406.326 276.111 402.948C285.999 398.185 295.842 395.586 317.897 391.913C328.792 390.098 340.043 387.897 342.9 387.021C369.88 378.749 383.748 357.402 379.31 330.978Z"
+                                        fill="currentColor"></path>
+                                    <path
+                                        d="M404.719 376.105C397.355 360.273 395.664 344.988 399.698 330.732C400.13 329.209 400.824 327.962 401.242 327.962C401.659 327.962 403.397 328.902 405.103 330.05C408.497 332.335 415.303 336.182 433.437 346.069C456.065 358.406 468.966 367.959 477.74 378.873C485.423 388.432 490.178 399.318 492.467 412.593C493.762 420.113 493.003 438.206 491.074 445.778C484.99 469.653 470.85 488.406 450.682 499.349C447.727 500.952 445.075 502.269 444.788 502.275C444.501 502.28 445.577 499.543 447.18 496.191C453.965 482.009 454.737 468.214 449.608 452.859C446.467 443.457 440.064 431.985 427.135 412.596C412.103 390.054 408.417 384.054 404.719 376.105Z"
+                                        fill="currentColor"></path>
+                                    <path
+                                        d="M196.519 461.525C217.089 444.157 242.682 431.819 265.996 428.032C276.043 426.399 292.78 427.047 302.084 429.428C316.998 433.245 330.338 441.793 337.276 451.978C344.057 461.932 346.966 470.606 349.995 489.906C351.189 497.519 352.489 505.164 352.882 506.895C355.156 516.897 359.583 524.892 365.067 528.907C373.779 535.283 388.78 535.68 403.536 529.924C406.041 528.947 408.215 528.271 408.368 528.424C408.903 528.955 401.473 533.93 396.23 536.548C389.177 540.071 383.568 541.434 376.115 541.434C362.6 541.434 351.379 534.558 342.016 520.539C340.174 517.78 336.032 509.516 332.813 502.176C322.928 479.628 318.046 472.759 306.568 465.242C296.579 458.701 283.697 457.53 274.006 462.282C261.276 468.523 257.724 484.791 266.842 495.101C270.465 499.198 277.223 502.732 282.749 503.419C293.086 504.705 301.97 496.841 301.97 486.404C301.97 479.627 299.365 475.76 292.808 472.801C283.852 468.76 274.226 473.483 274.272 481.897C274.292 485.484 275.854 487.737 279.45 489.364C281.757 490.408 281.811 490.491 279.929 490.1C271.712 488.396 269.787 478.49 276.394 471.913C284.326 464.018 300.729 467.502 306.362 478.279C308.728 482.805 309.003 491.82 306.94 497.264C302.322 509.448 288.859 515.855 275.201 512.368C265.903 509.994 262.117 507.424 250.906 495.876C231.425 475.809 223.862 471.92 195.777 467.536L190.395 466.696L196.519 461.525Z"
+                                        fill="currentColor"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M49.6202 12.0031C114.678 90.9638 214.977 213.901 219.957 220.784C224.068 226.467 222.521 231.576 215.478 235.58C211.561 237.807 203.508 240.063 199.476 240.063C194.916 240.063 189.779 237.867 186.038 234.318C183.393 231.81 172.721 215.874 148.084 177.646C129.233 148.396 113.457 124.131 113.027 123.725C112.032 122.785 112.049 122.817 146.162 183.854C167.582 222.181 174.813 235.731 174.813 237.543C174.813 241.229 173.808 243.166 169.261 248.238C161.681 256.694 158.293 266.195 155.847 285.859C153.104 307.902 145.394 323.473 124.026 350.122C111.518 365.722 109.471 368.581 106.315 374.869C102.339 382.786 101.246 387.221 100.803 397.219C100.335 407.79 101.247 414.619 104.477 424.726C107.304 433.575 110.255 439.417 117.8 451.104C124.311 461.188 128.061 468.683 128.061 471.614C128.061 473.947 128.506 473.95 138.596 471.672C162.741 466.219 182.348 456.629 193.375 444.877C200.199 437.603 201.801 433.586 201.853 423.618C201.887 417.098 201.658 415.733 199.896 411.982C197.027 405.877 191.804 400.801 180.292 392.932C165.209 382.621 158.767 374.32 156.987 362.904C155.527 353.537 157.221 346.928 165.565 329.44C174.202 311.338 176.342 303.624 177.79 285.378C178.725 273.589 180.02 268.94 183.407 265.209C186.939 261.317 190.119 260 198.861 258.805C213.113 256.858 222.188 253.171 229.648 246.297C236.119 240.334 238.827 234.588 239.243 225.938L239.558 219.382L235.942 215.166C222.846 199.896 40.85 0 40.044 0C39.8719 0 44.1813 5.40178 49.6202 12.0031ZM135.412 409.18C138.373 403.937 136.8 397.195 131.847 393.902C127.167 390.79 119.897 392.256 119.897 396.311C119.897 397.548 120.582 398.449 122.124 399.243C124.72 400.579 124.909 402.081 122.866 405.152C120.797 408.262 120.964 410.996 123.337 412.854C127.162 415.849 132.576 414.202 135.412 409.18Z"
+                                        fill="currentColor"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M248.552 262.244C241.862 264.299 235.358 271.39 233.344 278.826C232.116 283.362 232.813 291.319 234.653 293.776C237.625 297.745 240.499 298.791 248.282 298.736C263.518 298.63 276.764 292.095 278.304 283.925C279.567 277.229 273.749 267.948 265.736 263.874C261.601 261.772 252.807 260.938 248.552 262.244ZM266.364 276.172C268.714 272.834 267.686 269.225 263.69 266.785C256.08 262.138 244.571 265.983 244.571 273.173C244.571 276.752 250.572 280.656 256.074 280.656C259.735 280.656 264.746 278.473 266.364 276.172Z"
+                                        fill="currentColor"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/upai_wtf" target="_blank"
+                                class="w-10 h-10 rounded-full text-white hover:text-[#f64538] flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 256 256"
+                                    xml:space="preserve">
+
+                                    <defs>
+                                    </defs>
+                                    <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                                        transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                        <path
+                                            d="M 83.924 7.756 L 4.202 38.496 c -5.442 2.183 -5.409 5.219 -0.992 6.571 l 20.455 6.385 l 7.035 23.153 c 0.925 2.553 0.469 3.566 3.151 3.566 c 2.069 0 2.983 -0.946 4.138 -2.069 l 9.941 -9.666 l 20.681 15.28 c 3.806 2.1 6.553 1.012 7.501 -3.533 l 13.577 -63.978 C 91.079 8.631 87.565 6.103 83.924 7.756 z"
+                                            style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1;"
+                                            fill="currentColor" transform=" matrix(1 0 0 1 0 0) "
+                                            stroke-linecap="round"></path>
+                                        <path
+                                            d="M 33.942 72.016 l -6.747 -22.204 L 79.13 19.002 L 40.751 56.789 L 33.942 72.016 z"
+                                            style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #000000; fill-rule: nonzero; opacity: 1;"
+                                            transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                    </g>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/upai_wtf" target="_blank"
+                                class="w-10 h-10 rounded-full text-white hover:text-[#f64538] flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.0" class="w-6 h-6"
+                                    viewBox="0 0 488.000000 459.000000" preserveAspectRatio="xMidYMid meet">
+
+                                    <g transform="translate(0.000000,459.000000) scale(0.100000,-0.100000)"
+                                        fill="currentColor" stroke="none">
+                                        <path
+                                            d="M14 4579 c-2 -3 160 -224 359 -490 199 -266 622 -832 940 -1257 l578 -773 -37 -42 c-21 -23 -446 -482 -944 -1020 -498 -539 -907 -983 -908 -988 -2 -5 85 -9 210 -8 l213 1 70 77 c39 42 401 433 805 870 404 437 746 807 760 823 l25 29 200 -268 c110 -147 413 -553 673 -901 l474 -632 725 0 c603 0 724 2 720 13 -3 8 -187 256 -409 553 -222 296 -476 636 -564 754 -89 118 -350 469 -582 778 -232 310 -422 568 -422 572 0 7 1226 1338 1643 1783 l119 127 -219 0 -218 -1 -255 -276 c-140 -152 -483 -524 -763 -825 l-507 -548 -615 822 -616 823 -725 5 c-399 3 -728 2 -730 -1z m1718 -886 c237 -318 603 -807 813 -1088 210 -280 676 -904 1036 -1385 360 -482 658 -881 663 -888 6 -9 -65 -12 -324 -12 l-331 0 -656 878 c-1514 2023 -2278 3045 -2287 3060 -6 9 62 12 323 12 l331 0 432 -577z">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Close Button -->
+                    <button class="absolute top-0 right-0 bottom-0 left-0" @click="openMenu = !openMenu">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 absolute top-2 left-2" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+
+                </nav>
+
+            </div>
+
+
+
+            <section class="relative pb-20 pt-20 ">
+
+                <div class="max-w-6xl 2xl:max-w-7xl mx-auto text-center">
+
+                    <h1 class="text-3xl sm:text-4xl max-w-3xl mx-auto font-bold">The first AI designed to consistently
+                        identify profitable crypto opportunities.</h1>
+                    <p class="mt-4 text-lg sm:text-xl max-w-3xl mx-auto text-center font-medium text-gray-500"><span
+                            class="text-sm"></span>Revenue Share is live for $UPAI Holders</p>
+
+                    <div class="mt-6 flex items-center justify-center space-x-6">
+                        <a id="connect_button"
+                            target="_blank" class="relative inline-block px-4 py-2 font-medium group">
+                            <span
+                                class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+                            <span
+                                class="absolute inset-0 w-full h-full bg-[#f64538] border-2 border-black group-hover:bg-black"></span>
+                            <span id="connect_button" class="relative text-primary-dark group-hover:text-primary-light">Claim Revenue
+                                Share</span>
+                        </a>
+
+                    </div>
+                    <div>
+                        <p class="text-secondary-400 text-xs mt-4">Holding 1k+ $UPAI allows you to access all premium
+                            signals, forever.</p>
+                        <p class="text-secondary-400 text-xs mt-1">This price is a limited time offer.</p>
+                    </div>
+
+                </div>
+
+                <div x-data="{}"
+                    x-init="$nextTick(() => { let ul = $refs.calls; ul.insertAdjacentHTML('afterend', ul.outerHTML); ul.nextSibling.setAttribute('aria-hidden', 'true'); })"
+                    class="mt-20 w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-50px),transparent_100%)]">
+                    <ul x-ref="calls"
+                        class="flex items-center justify-center md:justify-start [&amp;_li]:mx-8 [&amp;_img]:max-w-none animate-infinite-scroll">
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x5ba95a08b76d4d512795734683f430f81d6dfb3b.jpg"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$TENG</p>
+                                        <p class="text-xs text-gray-300">4 hours ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+8371%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000123</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0xf327c89bf0769f0f2e99e50232557f03aad6cc17.jpg"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$PEIPEI</p>
+                                        <p class="text-xs text-gray-300">2 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+11953%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000000</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x4e9fcd48af4738e3bf1382009dc1e93ebfce698f.png"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$TAONU</p>
+                                        <p class="text-xs text-gray-300">3 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+35297%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000430</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x26cd72892df77b8b2a7ecd8733f6f4176930ed30.png"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$$SHEBA</p>
+                                        <p class="text-xs text-gray-300">3 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+11997%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000000</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0xc297f0eeace5afdaf4e39f7fd1f82c0335d05deb.jpg"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$GROKAI</p>
+                                        <p class="text-xs text-gray-300">3 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+4328%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000848</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x6cc5ac84f3bcb9b88a3458ed27ff7bc7b01cdd72.jpg"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$ADA</p>
+                                        <p class="text-xs text-gray-300">3 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+10460%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00091736</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x561cf9121e89926c27fa1cfc78dfcc4c422937a4.jpg"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$SQUID</p>
+                                        <p class="text-xs text-gray-300">4 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+4768%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000078</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x53020f42f6da51b50cf6e23e45266ef223122376.png"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$SPOT</p>
+                                        <p class="text-xs text-gray-300">5 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+6753%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00006677</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x62738964242d84173340a1e6d8e87780d52797e3.png"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$TORNAI</p>
+                                        <p class="text-xs text-gray-300">6 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+4337%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00001947</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x9d1a74967eca155782edf8e84782c74db33fc499.jpeg"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$AI.COM</p>
+                                        <p class="text-xs text-gray-300">6 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+35502%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000058</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x239354efb40ce8e843e2609ec7cccda7e2881808.jpeg"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$VAULT</p>
+                                        <p class="text-xs text-gray-300">6 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+9055%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00770886</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0xcae0dd4bda7ff3e700355c7629b24d5d728bd2ce.webp"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$BOWIE</p>
+                                        <p class="text-xs text-gray-300">6 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+39690%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000044</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x34bc13de8e5124a7c47d4b7ff7c5ade6ee34faba.png"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$DOJO</p>
+                                        <p class="text-xs text-gray-300">1 week ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+6310%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00006776</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0xd31e53966bf212e860d48a3a8651a23d09a7fdc3.jpg"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$DOGEAI</p>
+                                        <p class="text-xs text-gray-300">1 week ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+18848%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00002712</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x952f9e9c69bd9f325a7f11106cde2e150b75b2fe.png"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$UP</p>
+                                        <p class="text-xs text-gray-300">1 week ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+4158%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00001037</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x5fb52f1689da8f6de0ee1a6a01cbe31b3fc4dc89.webp"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$ETHB</p>
+                                        <p class="text-xs text-gray-300">1 week ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+4509%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000254</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x2b7b3ee07bf35bfd99634c8481931b2c1d2ab7fc.jpg"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$VIRALX</p>
+                                        <p class="text-xs text-gray-300">1 week ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+4033%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.01894534</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0xc706ef3c72935469bbb72f4d38a836c19ddf681e.png"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$VPN</p>
+                                        <p class="text-xs text-gray-300">1 week ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+16299%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000000</p>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <ul x-ref="calls"
+                        class="flex items-center justify-center md:justify-start [&amp;_li]:mx-8 [&amp;_img]:max-w-none animate-infinite-scroll"
+                        aria-hidden="true">
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x5ba95a08b76d4d512795734683f430f81d6dfb3b.jpg"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$TENG</p>
+                                        <p class="text-xs text-gray-300">4 hours ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+8371%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000123</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0xf327c89bf0769f0f2e99e50232557f03aad6cc17.jpg"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$PEIPEI</p>
+                                        <p class="text-xs text-gray-300">2 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+11953%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000000</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x4e9fcd48af4738e3bf1382009dc1e93ebfce698f.png"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$TAONU</p>
+                                        <p class="text-xs text-gray-300">3 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+35297%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000430</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x26cd72892df77b8b2a7ecd8733f6f4176930ed30.png"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$$SHEBA</p>
+                                        <p class="text-xs text-gray-300">3 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+11997%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000000</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0xc297f0eeace5afdaf4e39f7fd1f82c0335d05deb.jpg"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$GROKAI</p>
+                                        <p class="text-xs text-gray-300">3 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+4328%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000848</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x6cc5ac84f3bcb9b88a3458ed27ff7bc7b01cdd72.jpg"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$ADA</p>
+                                        <p class="text-xs text-gray-300">3 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+10460%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00091736</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x561cf9121e89926c27fa1cfc78dfcc4c422937a4.jpg"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$SQUID</p>
+                                        <p class="text-xs text-gray-300">4 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+4768%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000078</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x53020f42f6da51b50cf6e23e45266ef223122376.png"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$SPOT</p>
+                                        <p class="text-xs text-gray-300">5 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+6753%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00006677</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x62738964242d84173340a1e6d8e87780d52797e3.png"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$TORNAI</p>
+                                        <p class="text-xs text-gray-300">6 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+4337%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00001947</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x9d1a74967eca155782edf8e84782c74db33fc499.jpeg"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$AI.COM</p>
+                                        <p class="text-xs text-gray-300">6 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+35502%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000058</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x239354efb40ce8e843e2609ec7cccda7e2881808.jpeg"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$VAULT</p>
+                                        <p class="text-xs text-gray-300">6 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+9055%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00770886</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0xcae0dd4bda7ff3e700355c7629b24d5d728bd2ce.webp"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$BOWIE</p>
+                                        <p class="text-xs text-gray-300">6 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+39690%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000044</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x34bc13de8e5124a7c47d4b7ff7c5ade6ee34faba.png"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$DOJO</p>
+                                        <p class="text-xs text-gray-300">1 week ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+6310%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00006776</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0xd31e53966bf212e860d48a3a8651a23d09a7fdc3.jpg"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$DOGEAI</p>
+                                        <p class="text-xs text-gray-300">1 week ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+18848%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00002712</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x952f9e9c69bd9f325a7f11106cde2e150b75b2fe.png"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$UP</p>
+                                        <p class="text-xs text-gray-300">1 week ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+4158%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00001037</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x5fb52f1689da8f6de0ee1a6a01cbe31b3fc4dc89.webp"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$ETHB</p>
+                                        <p class="text-xs text-gray-300">1 week ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+4509%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000254</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0x2b7b3ee07bf35bfd99634c8481931b2c1d2ab7fc.jpg"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$VIRALX</p>
+                                        <p class="text-xs text-gray-300">1 week ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+4033%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.01894534</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class=" bg-[#151517] text-white rounded-lg flex items-center justify-between shadow-lg p-3 min-w-[115%] w-full">
+                                <div class="flex items-center">
+                                    <img src="0xc706ef3c72935469bbb72f4d38a836c19ddf681e.png"
+                                        class="rounded-full w-8 h-8">
+                                    <div class="ml-3">
+                                        <p class="text-base sm:text-lg font-bold">$VPN</p>
+                                        <p class="text-xs text-gray-300">1 week ago</p>
+                                    </div>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-[#f64538] text-right text-lg sm:text-xl font-bold">+16299%</p>
+                                    <p class="text-xs text-gray-300 whitespace-nowrap">Open at $0.00000000</p>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <p class="text-secondary-400 text-center text-sm mt-4">Recently uncovered opportunities by UP<span
+                        class="text-sm">ai</span></p>
+
+
+
+            </section>
+        </div>
+
+        <div class="bg-[#151517] h-full text-white px-10 md:px-8">
+            <section class="relative max-w-6xl 2xl:max-w-7xl mx-auto pb-20 pt-32">
+                <h1 class="text-4xl font-bold text-center">Performance + Transparency</h1>
+                <p class="mt-4 text-gray-300 max-w-5xl mx-auto text-center text-lg ">At UP<span
+                        class="text-sm">ai</span> we strive to create <strong>the safest, most accurate &amp; best
+                        performing trading AI</strong>. Which requires full transparency &amp; commitment. The numbers
+                    below provide an overview of our key performance indicators in real-time, this is the same dashboard
+                    our team stares at every day.</p>
+
+                <div class="mt-20">
+                    <div class="">
+                        <p class="text-xl font-semibold">Overall Performance</p>
+                        <p class="mt-1 text-base text-gray-400">Get a bird eye's view of UP<span
+                                class="text-sm">ai</span>'s performance across models.</p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 mt-10">
+                            <div class="">
+                                <p class="text-6xl font-bold">+859.72%</p>
+                                <h2 class="mt-2 text-gray-300 text-2xl font-semibold">Return On Investment</h2>
+                            </div>
+                            <div class="">
+                                <p class="text-6xl font-bold">79.17%</p>
+                                <h2 class="mt-2 text-gray-300 text-2xl font-semibold">Win Rate</h2>
+                            </div>
+                            <div class="">
+                                <p class="text-6xl font-bold">3.22%</p>
+                                <h2 class="mt-2 text-gray-300 text-2xl font-semibold">Rug Rate</h2>
+                            </div>
+                            <div class="">
+                                <p class="text-6xl font-bold">593<span
+                                        class="font-normal text-gray-300 text-4xl">/14578</span></p>
+                                <h2 class="mt-2 text-gray-300 text-2xl font-semibold">Active Wallets</h2>
+                            </div>
+                        </div>
+                        <p class="mt-20 text-xl font-semibold">Performance by Model</p>
+                        <p class="text-base mt-1 text-gray-400 max-w-3xl"> Each model is designed to identify the
+                            perfect opportunities for a specific type of traders. </p>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-20 mt-10">
+                            <div class="relative group">
+                                <div
+                                    class="relative h-full px-7 py-4 bg-[#202022] text-white flex flex-1 flex-col justify-between">
+
+                                    <div>
+                                        <div class="flex items-center text-[#f64538]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
+                                                stroke-width="1.5" viewBox="0 0 24 24" color="currentColor">
+                                                <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    d="m16 12 .011.01M19 12l.011.01M22 12l.011.01M2 12c0 5.523 4.477 10 10 10a9.985 9.985 0 0 0 8-3.999L12 12l8-6.001A9.985 9.985 0 0 0 12 2C6.477 2 2 6.477 2 12Z">
+                                                </path>
+                                            </svg>
+                                            <span class="ml-2 text-lg font-semibold ">UP-DGN</span>
+                                        </div>
+                                        <p class="text-sm mt-1 text-white">Made by degens, for degens. This is our
+                                            riskiest but also most profitable model.</p>
+                                    </div>
+                                    <div class="mt-6 grid grid-cols-3 md:grid-cols-2 gap-6">
+                                        <div class="">
+                                            <p class="font-bold">+2787.01%</p>
+                                            <p class="mt-1 text-secondary-500 text-sm font-semibold">ROI</p>
+                                        </div>
+                                        <div class="">
+                                            <p class="font-bold">66.26%</p>
+                                            <p class="mt-1 text-secondary-500 text-sm font-semibold">Win Rate</p>
+                                        </div>
+                                        <div class="">
+                                            <p class="font-bold">14.81%</p>
+                                            <p class="mt-1 text-secondary-500 text-sm font-semibold">Rug Rate</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="relative group">
+                                <div
+                                    class="relative h-full px-7 py-4 bg-[#202022] text-white flex flex-1 flex-col justify-between">
+
+                                    <div>
+                                        <div class="flex items-center text-[#f64538]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
+                                                stroke-width="1.5" viewBox="0 0 24 24" color="currentColor">
+                                                <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" d="m8.5 11.5 3 3 5-5"></path>
+                                                <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    d="M5 18 3.13 4.913a.996.996 0 0 1 .774-1.114l7.662-1.703a2 2 0 0 1 .868 0L20.096 3.8c.51.113.848.596.774 1.114L19 18c-.07.495-.5 3.5-7 3.5S5.07 18.495 5 18Z">
+                                                </path>
+                                            </svg>
+                                            <span class="ml-2 text-lg font-semibold ">UP-SAFU</span>
+                                        </div>
+                                        <p class="text-sm mt-1 text-white">Get in early while avoiding rugs. This model
+                                            balances safety and being early.</p>
+                                    </div>
+                                    <div class="mt-6 grid grid-cols-3 md:grid-cols-2 gap-6">
+                                        <div class="">
+                                            <p class="font-bold">+358.83%</p>
+                                            <p class="mt-1 text-secondary-500 text-sm font-semibold">ROI</p>
+                                        </div>
+                                        <div class="">
+                                            <p class="font-bold">80.05%</p>
+                                            <p class="mt-1 text-secondary-500 text-sm font-semibold">Win Rate</p>
+                                        </div>
+                                        <div class="">
+                                            <p class="font-bold">0.76%</p>
+                                            <p class="mt-1 text-secondary-500 text-sm font-semibold">Rug Rate</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="relative group">
+                                <div
+                                    class="relative h-full px-7 py-4 bg-[#202022] text-white flex flex-1 flex-col justify-between">
+
+                                    <div>
+                                        <div class="flex items-center text-[#f64538]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
+                                                stroke-width="1.5" viewBox="0 0 24 24" color="currentColor">
+                                                <path stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"
+                                                    d="M8 15c4.875 0 7-2.051 7-7 0 4.949 2.11 7 7 7-4.89 0-7 2.11-7 7 0-4.89-2.125-7-7-7ZM2 6.5c3.134 0 4.5-1.318 4.5-4.5 0 3.182 1.357 4.5 4.5 4.5-3.143 0-4.5 1.357-4.5 4.5 0-3.143-1.366-4.5-4.5-4.5Z">
+                                                </path>
+                                            </svg>
+                                            <span class="ml-2 text-lg font-semibold ">UP-GEM</span>
+                                        </div>
+                                        <p class="text-sm mt-1 text-white">Designed to identify gems among the 1000s of
+                                            tokens launched every day.</p>
+                                    </div>
+                                    <div class="mt-6 grid grid-cols-3 md:grid-cols-2 gap-6">
+                                        <div class="">
+                                            <p class="font-bold">+649.56%</p>
+                                            <p class="mt-1 text-secondary-500 text-sm font-semibold">ROI</p>
+                                        </div>
+                                        <div class="">
+                                            <p class="font-bold">80.47%</p>
+                                            <p class="mt-1 text-secondary-500 text-sm font-semibold">Win Rate</p>
+                                        </div>
+                                        <div class="">
+                                            <p class="font-bold">1.74%</p>
+                                            <p class="mt-1 text-secondary-500 text-sm font-semibold">Rug Rate</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="relative group">
+                                <div
+                                    class="relative h-full px-7 py-4 bg-[#202022] text-white flex flex-1 flex-col justify-between">
+                                    <div>
+                                        <div class="flex items-center text-[#f64538]">
+                                            <!--
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" stroke-width="1.5" viewBox="0 0 24 24" color="currentColor"><path stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M5 16v-2M12 21v-2M19 13v-2M5 8V6M12 13v-2M19 5V3M7 8.6v4.8a.6.6 0 0 1-.6.6H3.6a.6.6 0 0 1-.6-.6V8.6a.6.6 0 0 1 .6-.6h2.8a.6.6 0 0 1 .6.6ZM14 13.6v4.8a.6.6 0 0 1-.6.6h-2.8a.6.6 0 0 1-.6-.6v-4.8a.6.6 0 0 1 .6-.6h2.8a.6.6 0 0 1 .6.6ZM21 5.6v4.8a.6.6 0 0 1-.6.6h-2.8a.6.6 0 0 1-.6-.6V5.6a.6.6 0 0 1 .6-.6h2.8a.6.6 0 0 1 .6.6Z"></path></svg>
+                                    -->
+                                            <svg class="w-6 h-6" fill="none" stroke-width="1.5"
+                                                xmlns="http://www.w3.org/2000/svg" color="currentColor">
+                                                <path
+                                                    d="M12 12C15.866 12 19 8.86599 19 5H5C5 8.86599 8.13401 12 12 12ZM12 12C15.866 12 19 15.134 19 19H5C5 15.134 8.13401 12 12 12Z"
+                                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round"></path>
+                                                <path d="M5 2L12 2L19 2" stroke="currentColor" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                                <path d="M5 22H12L19 22" stroke="currentColor" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                            <span class="ml-2 text-lg font-semibold ">UP-???</span>
+                                        </div>
+                                        <p class="text-sm mt-1 text-white">In testing - ETA: 3 - 5 days</p>
+                                    </div>
+                                    <div class="mt-10 grid grid-cols-3 md:grid-cols-2 gap-6">
+                                        <div class="">
+                                            <p class="font-bold">+???%</p>
+                                            <p class="mt-1 text-secondary-500 text-sm font-semibold">ROI</p>
+                                        </div>
+                                        <div class="">
+                                            <p class="font-bold">???%</p>
+                                            <p class="mt-1 text-secondary-500 text-sm font-semibold">Win Rate</p>
+                                        </div>
+                                        <div class="">
+                                            <p class="font-bold">???%</p>
+                                            <p class="mt-1 text-secondary-500 text-sm font-semibold">Rug Rate</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="relative group">
+                                <div
+                                    class="relative h-full px-7 py-4 bg-[#202022] text-white flex flex-1 flex-col justify-between">
+                                    <div>
+                                        <div class="flex items-center text-[#f64538]">
+                                            <!--
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" stroke-width="1.5" viewBox="0 0 24 24" color="currentColor"><path stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M5 16v-2M12 21v-2M19 13v-2M5 8V6M12 13v-2M19 5V3M7 8.6v4.8a.6.6 0 0 1-.6.6H3.6a.6.6 0 0 1-.6-.6V8.6a.6.6 0 0 1 .6-.6h2.8a.6.6 0 0 1 .6.6ZM14 13.6v4.8a.6.6 0 0 1-.6.6h-2.8a.6.6 0 0 1-.6-.6v-4.8a.6.6 0 0 1 .6-.6h2.8a.6.6 0 0 1 .6.6ZM21 5.6v4.8a.6.6 0 0 1-.6.6h-2.8a.6.6 0 0 1-.6-.6V5.6a.6.6 0 0 1 .6-.6h2.8a.6.6 0 0 1 .6.6Z"></path></svg>
+                                    -->
+                                            <svg class="w-6 h-6" fill="none" stroke-width="1.5"
+                                                xmlns="http://www.w3.org/2000/svg" color="currentColor">
+                                                <path
+                                                    d="M12 12C15.866 12 19 8.86599 19 5H5C5 8.86599 8.13401 12 12 12ZM12 12C15.866 12 19 15.134 19 19H5C5 15.134 8.13401 12 12 12Z"
+                                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round"></path>
+                                                <path d="M5 2L12 2L19 2" stroke="currentColor" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                                <path d="M5 22H12L19 22" stroke="currentColor" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                            <span class="ml-2 text-lg font-semibold ">UP-???</span>
+                                        </div>
+                                        <p class="text-sm mt-1 text-white">In testing - ETA: 7 - 14 days</p>
+                                    </div>
+                                    <div class="mt-10 grid grid-cols-3 md:grid-cols-2 gap-6">
+                                        <div class="">
+                                            <p class="font-bold">+???%</p>
+                                            <p class="mt-1 text-secondary-500 text-sm font-semibold">ROI</p>
+                                        </div>
+                                        <div class="">
+                                            <p class="font-bold">???%</p>
+                                            <p class="mt-1 text-secondary-500 text-sm font-semibold">Win Rate</p>
+                                        </div>
+                                        <div class="">
+                                            <p class="font-bold">???%</p>
+                                            <p class="mt-1 text-secondary-500 text-sm font-semibold">Rug Rate</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="relative group">
+                                <div class="relative h-full px-7 py-4 text-white flex justify-center items-center">
+                                    <span class="text-base text-secondary-400 my-auto text-center">+ More innovative
+                                        models actively in development</span>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+
+                </div>
+
+            </section>
+        </div>
+        <div class="bg-white h-full text-[#151517] px-10 md:px-8">
+            <section class="relative max-w-6xl 2xl:max-w-7xl mx-auto py-24 sm:py-32">
+
+                <h1 class="text-4xl font-bold">Designed for Scale</h1>
+                <p class="mt-4 text-gray-500 max-w-3xl text-lg ">UP<span class="text-sm">ai</span> has been built from
+                    the ground up to automatically adapt to changing market conditions, and can easily be extended to
+                    identify new metas and trends.</p>
+
+                <div class="mt-20 mb-20 grid grid-cols-1 text-gray-600 md:grid-cols-3 gap-20">
+                    <div class="relative pl-9">
+                        <dt class="inline font-semibold text-[#151517]">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="absolute left-1 top-1 h-5 w-5 text-[#f64538]"
+                                fill="none" stroke-width="1.5" viewBox="0 0 24 24" color="currentColor">
+                                <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="m12 18.51.01-.011M2 7c6-4.5 14-4.5 20 0M5 11c4-3 10-3 14 0M8.5 14.5c2.25-1.4 4.75-1.4 7 0M21.167 18.5h.233a.6.6 0 0 1 .6.6v2.3a.6.6 0 0 1-.6.6h-3.8a.6.6 0 0 1-.6-.6v-2.3a.6.6 0 0 1 .6-.6h.233m3.334 0v-1.75c0-.583-.334-1.75-1.667-1.75s-1.667 1.167-1.667 1.75v1.75m3.334 0h-3.334">
+                                </path>
+                            </svg>
+                            Models, Signals &amp; Channels.
+                        </dt>
+                        <dd class="inline">Each model's signals are broadcasted on separate private telegram channels.
+                            Get access to all channels &amp; models by holding 1000 $UPAI (limited time offer).</dd>
+                    </div>
+                    <div class="relative pl-9">
+                        <dt class="inline font-semibold text-[#151517]">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="absolute left-1 top-1 h-5 w-5 text-[#f64538]"
+                                fill="none" stroke-width="1.5" viewBox="0 0 24 24" color="currentColor">
+                                <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21.5 14 20 9s-.5-2-2.5-2c0 0 0-2-2-2s-2 2-2 2h-3s0-2-2-2-2 2-2 2C4.5 7 4 9 4 9l-1.5 5">
+                                </path>
+                                <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M6 20a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM18 20a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"></path>
+                                <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" d="M12 16a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
+                            </svg>
+
+                            Done-for-you DYOR.
+                        </dt>
+                        <dd class="inline">Every signal comes with all the information you need to make a decision. This
+                            includes honeypot simulations, taxes, liquidity, holder analysis and a lot more.</dd>
+                    </div>
+
+                    <div class="relative pl-9">
+                        <dt class="inline font-semibold text-[#151517]">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="absolute left-1 top-1 h-5 w-5 text-[#f64538]"
+                                fill="none" stroke-width="1.5" viewBox="0 0 24 24" color="currentColor">
+                                <path stroke="currentColor" stroke-width="1.5"
+                                    d="M3.2 14.222V4a2 2 0 0 1 2-2h13.6a2 2 0 0 1 2 2v10.222m-17.6 0h17.6m-17.6 0-1.48 5.234A2 2 0 0 0 3.644 22h16.712a2 2 0 0 0 1.924-2.544l-1.48-5.234">
+                                </path>
+                                <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" d="M11 19h2M14 6l2 2-2 2M10 6 8 8l2 2"></path>
+                            </svg>
+
+                            Programatically Curated Database.
+                        </dt>
+                        <dd class="inline">Our robots are always looking for new smart money wallets to add to our
+                            database, as well as automatically filtering out those who do not perform as well as
+                            expected.</dd>
+                    </div>
+
+                    <div class="relative pl-9">
+                        <dt class="inline font-semibold text-[#151517]">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="absolute left-1 top-1 h-5 w-5 text-[#f64538]"
+                                fill="none" stroke-width="1.5" viewBox="0 0 24 24" color="currentColor">
+                                <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" d="M7 14a3 3 0 1 0 1 5.83"></path>
+                                <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M4.264 15.605a4 4 0 0 1-.874-6.636M3.42 8.888A2.5 2.5 0 0 1 7 5.5M7.238 5.565A2.5 2.5 0 1 1 12 4.5V20M8 20a2 2 0 1 0 4 0M12 7a3 3 0 0 0 3 3M20.61 8.969A3.99 3.99 0 0 1 22 12c0 .703-.181 1.364-.5 1.938M20.58 8.888A2.5 2.5 0 0 0 17 5.5M12 4.5a2.5 2.5 0 1 1 4.762 1.065M14 22a2 2 0 0 1-2-2M18.667 16 17 19h4l-1.667 3">
+                                </path>
+                            </svg>
+
+                            Self Improving AI.
+                        </dt>
+                        <dd class="inline">UP<span class="text-sm">ai</span> periodically takes the signal and price
+                            data from all our models, and creates new &amp; better performing models, completely on
+                            autopilot.</dd>
+                    </div>
+                    <div class="relative pl-9">
+                        <dt class="inline font-semibold text-[#151517]">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="absolute left-1 top-1 h-5 w-5 text-[#f64538]"
+                                fill="none" stroke-width="1.5" viewBox="0 0 24 24" color="currentColor">
+                                <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="m12 7.01.01-.011M16 9.01l.01-.011M8 9.01l.01-.011M18 13.01l.01-.011M6 13.01l.01-.011M17 17.01l.01-.011M7 17.01l.01-.011M12 17l1-6M8.5 20.001H4A9.956 9.956 0 0 1 2 14C2 8.477 6.477 4 12 4s10 4.477 10 10c0 2.252-.744 4.33-2 6.001L15.5 20">
+                                </path>
+                                <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" d="M12 23a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"></path>
+                            </svg>
+
+                            Performance Dashboard.
+                        </dt>
+                        <dd class="inline">We're sharing all the performance data from all our models from day 1. A
+                            detailed &amp; public dashboard will be available very soon.</dd>
+                    </div>
+                    <div class="relative pl-9">
+                        <dt class="inline font-semibold text-[#151517]">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="absolute left-1 top-1 h-5 w-5 text-[#f64538]"
+                                fill="none" stroke-width="1.5" viewBox="0 0 24 24" color="currentColor">
+                                <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M20 12v9.4a.6.6 0 0 1-.6.6H4.6a.6.6 0 0 1-.6-.6V12M21.4 7H2.6a.6.6 0 0 0-.6.6v3.8a.6.6 0 0 0 .6.6h18.8a.6.6 0 0 0 .6-.6V7.6a.6.6 0 0 0-.6-.6ZM12 22V7M12 7H7.5a2.5 2.5 0 1 1 0-5C11 2 12 7 12 7ZM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7Z">
+                                </path>
+                            </svg>
+
+                            Coming Soon.
+                        </dt>
+                        <dd class="inline">Get ready for brand new models, better performing versions of existing
+                            models, as well as new &amp; innovative tools designed to 10x UP<span
+                                class="text-sm">ai</span>'s utility &amp; reach.</dd>
+                    </div>
+                </div>
+
+
+
+                <h1 class="text-4xl font-bold">Tokenomics</h1>
+                <p class="mt-4 text-gray-500 max-w-3xl text-lg ">Fairly distributed and designed for long-term
+                    sustainability and growth.</p>
+
+                <dl
+                    class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 text-primary-dark sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+                    <div class="flex flex-col gap-y-3 border-l border-white/10">
+                        <dt class="text-base text-secondary-600 font-medium leading-6">Total Supply</dt>
+                        <dd class="order-first text-3xl font-semibold tracking-tight">1,000,000</dd>
+                    </div>
+                    <div class="flex flex-col gap-y-3 border-l border-white/10 sm:pl-6">
+                        <dt class="text-base text-secondary-600 font-medium leading-6">Tax</dt>
+                        <dd class="order-first text-3xl font-semibold tracking-tight">5%</dd>
+                    </div>
+                    <div class="flex flex-col gap-y-3 border-l border-white/10 sm:pl-6">
+                        <dt class="text-base text-secondary-600 font-medium leading-6">Liquidity</dt>
+                        <dd class="order-first text-3xl font-semibold tracking-tight">90%</dd>
+                    </div>
+                    <div class="flex flex-col gap-y-3 border-l border-white/10 sm:pl-6">
+                        <dt class="text-base text-secondary-600 font-medium leading-6">Partnerships &amp; Marketing</dt>
+                        <dd class="order-first text-3xl font-semibold tracking-tight">10%</dd>
+                    </div>
+
+                </dl>
+            </section>
+        </div>
+
+        <div class="relative isolate overflow-hidden bg-[#151517]">
+            <div class="py-32 sm:px-6 sm:py-40 px-10 md:px-8">
+                <div class="mx-auto max-w-6xl text-center">
+                    <h2 class="text-5xl font-bold text-white sm:text-6xl">Don't miss the next 100x!</h2>
+                    <p class="mx-auto mt-6 text-lg text-gray-300">Join the UP<span class="text-sm">ai</span> community
+                        now and instantly supercharge your trading and profits.</p>
+                    <p class="mx-auto mt-1 text-lg text-gray-300">The amount of tokens required to join will
+                        <strong>never</strong> be as low as today.</p>
+
+                    <div class="mt-10 flex items-center justify-center space-x-6">
+
+                        <a href="https://t.me/upai_wtf" target="_blank"
+                            class="relative inline-block px-4 py-2 font-medium group">
+                            <span
+                                class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+                            <span
+                                class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
+                            <span class="relative text-black group-hover:text-white">Join Telegram</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <svg viewBox="0 0 1024 1024"
+                class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]"
+                aria-hidden="true">
+                <circle cx="512" cy="512" r="512" fill="url(#8d958450-c69f-4251-94bc-4e091a323369)" fill-opacity="0.7">
+                </circle>
+                <defs>
+                    <radialGradient id="8d958450-c69f-4251-94bc-4e091a323369">
+                        <stop stop-color="#f64538"></stop>
+                        <stop offset="1" stop-color="#f64538"></stop>
+                    </radialGradient>
+                </defs>
+            </svg>
+        </div>
+
+        <div class="bg-white  h-full text-[#151517] px-10 md:px-8">
+            <section class="relative max-w-6xl 2xl:max-w-7xl mx-auto py-24 sm:py-32">
+                <div class="mx-auto max-w-2xl text-center">
+                    <h2 class="text-3xl font-bold tracking-tightsm:text-4xl">Frequently asked questions</h2>
+
+                </div>
+                <div class="mt-20">
+                    <dl class="space-y-16 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-16 sm:space-y-0 lg:gap-x-10">
+                        <div>
+                            <dt class="text-base font-semibold leading-7 text-gray-900">How do I access UP<span
+                                    class="text-sm">ai</span> signals?</dt>
+                            <dd class="mt-2 text-base leading-7 text-gray-600">Simply buy 1000 $UPAI and join telegram
+                                to unlock all signal channels.</dd>
+                        </div>
+                        <div>
+                            <dt class="text-base font-semibold leading-7 text-gray-900">How do I buy $UPAI?</dt>
+                            <dd class="mt-2 text-base leading-7 text-gray-600">You can buy through Uniswap or other
+                                uniswap compatible trading tools.</dd>
+                        </div>
+                        <div>
+                            <dt class="text-base font-semibold leading-7 text-gray-900">What is UP<span
+                                    class="text-sm">ai</span>'s contract address?</dt>
+                            <dd class="mt-2 text-base leading-7 text-gray-600">
+                                0x86734d3819Db5525F0bc25E3593A9F3CFC3bb0D5</dd>
+                        </div>
+                        <div>
+                            <dt class="text-base font-semibold leading-7 text-gray-900">Is UP<span
+                                    class="text-sm">ai</span>'s liquidity locked?</dt>
+                            <dd class="mt-2 text-base leading-7 text-gray-600">Yes, liquidity will be locked for 6
+                                months and periodically extended.</dd>
+                        </div>
+                        <div>
+                            <dt class="text-base font-semibold leading-7 text-gray-900">What slippage should be used to
+                                buy $UPAI?</dt>
+                            <dd class="mt-2 text-base leading-7 text-gray-600">We recommend using a minimum of 5%
+                                slippage.</dd>
+                        </div>
+                        <div>
+                            <dt class="text-base font-semibold leading-7 text-gray-900">Are UP<span
+                                    class="text-sm">ai</span> signals financial advice?</dt>
+                            <dd class="mt-2 text-base leading-7 text-gray-600">No, UP<span class="text-sm">ai</span>
+                                signals are not financial advice.</dd>
+                        </div>
+                        <div>
+                            <dt class="text-base font-semibold leading-7 text-gray-900">Wen rev-share?</dt>
+                            <dd class="mt-2 text-base leading-7 text-gray-600">Soon.</dd>
+                        </div>
+                        <div>
+                            <dt class="text-base font-semibold leading-7 text-gray-900">How do I contact the UP<span
+                                    class="text-sm">ai</span> team?</dt>
+                            <dd class="mt-2 text-base leading-7 text-gray-600">The team is always available on <a
+                                    href="https://t.me/upai_wtf" target="_blank" class="text-[#f64538]">Telegram</a>,
+                                you can also DM us on <a href="https://twitter.com/upai_wtf" target="_blank"
+                                    class="text-[#f64538]">Twitter/X</a>.</dd>
+                        </div>
+                        <div>
+                            <dt class="text-base font-semibold leading-7 text-gray-900">Contact</dt>
+                            <dd class="mt-2 text-base leading-7 text-gray-600">Contract:
+                                0x86734d3819Db5525F0bc25E3593A9F3CFC3bb0D5</dd>
+                            <dd class="mt-2 text-base leading-7 text-gray-600">Email: earlyaibot@gmail.com</dd>
+                            <dd class="mt-1 text-base leading-7 text-gray-600">Tg: https://t.me/upai_wtf</dd>
+                            <dd class="mt-1 text-base leading-7 text-gray-600">Twitter: https://twitter.com/upai_wtf
+                            </dd>
+                            <dd class="mt-1 text-base leading-7 text-gray-600">Email: earlyaibot@gmail.com</dd>
+                        </div>
+
+                    </dl>
+                </div>
+
+            </section>
+        </div>
+
+
+        <footer class="bg-white text-[#151517]">
+            <div class="mx-auto max-w-7xl overflow-hidden px-12 py-12 sm:py-12 lg:px-8">
+                <div class="mt-10 flex justify-center space-x-10">
+                    <a href="https://app.uniswap.org/#/swap?outputCurrency=0x86734d3819Db5525F0bc25E3593A9F3CFC3bb0D5&amp;chain=ethereum"
+                        target="_blank"
+                        class="w-10 h-10 text-black hover:text-[#f64538] flex items-center justify-center">
+                        <span class="sr-only">Uniswap</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 641 640" fill="none">
+                            <path
+                                d="M224.534 123.226C218.692 122.32 218.445 122.213 221.195 121.791C226.464 120.98 238.905 122.085 247.479 124.123C267.494 128.881 285.707 141.069 305.148 162.714L310.313 168.465L317.701 167.277C348.828 162.275 380.493 166.25 406.978 178.485C414.264 181.851 425.752 188.552 427.187 190.274C427.645 190.822 428.485 194.355 429.053 198.124C431.02 211.164 430.036 221.16 426.047 228.625C423.877 232.688 423.756 233.975 425.215 237.452C426.38 240.227 429.627 242.28 432.843 242.276C439.425 242.267 446.509 231.627 449.791 216.823L451.095 210.943L453.678 213.868C467.846 229.92 478.974 251.811 480.885 267.393L481.383 271.455L479.002 267.762C474.903 261.407 470.785 257.08 465.512 253.591C456.006 247.301 445.955 245.161 419.337 243.758C395.296 242.491 381.69 240.438 368.198 236.038C345.244 228.554 333.672 218.587 306.405 182.812C294.294 166.923 286.808 158.131 279.362 151.051C262.442 134.964 245.816 126.527 224.534 123.226Z"
+                                fill="currentColor"></path>
+                            <path
+                                d="M432.61 158.704C433.215 148.057 434.659 141.033 437.562 134.62C438.711 132.081 439.788 130.003 439.954 130.003C440.12 130.003 439.621 131.877 438.844 134.167C436.733 140.392 436.387 148.905 437.84 158.811C439.686 171.379 440.735 173.192 454.019 186.769C460.25 193.137 467.497 201.168 470.124 204.616L474.901 210.886L470.124 206.405C464.282 200.926 450.847 190.24 447.879 188.712C445.89 187.688 445.594 187.705 444.366 188.927C443.235 190.053 442.997 191.744 442.84 199.741C442.596 212.204 440.897 220.204 436.797 228.203C434.58 232.529 434.23 231.606 436.237 226.723C437.735 223.077 437.887 221.474 437.876 209.408C437.853 185.167 434.975 179.339 418.097 169.355C413.821 166.826 406.776 163.178 402.442 161.249C398.107 159.32 394.664 157.639 394.789 157.514C395.267 157.038 411.727 161.842 418.352 164.39C428.206 168.181 429.833 168.672 431.03 168.215C431.832 167.909 432.22 165.572 432.61 158.704Z"
+                                fill="currentColor"></path>
+                            <path
+                                d="M235.883 200.175C224.022 183.846 216.684 158.809 218.272 140.093L218.764 134.301L221.463 134.794C226.534 135.719 235.275 138.973 239.369 141.459C250.602 148.281 255.465 157.263 260.413 180.328C261.862 187.083 263.763 194.728 264.638 197.317C266.047 201.483 271.369 211.214 275.696 217.534C278.813 222.085 276.743 224.242 269.853 223.62C259.331 222.67 245.078 212.834 235.883 200.175Z"
+                                fill="currentColor"></path>
+                            <path
+                                d="M418.223 321.707C362.793 299.389 343.271 280.017 343.271 247.331C343.271 242.521 343.437 238.585 343.638 238.585C343.84 238.585 345.985 240.173 348.404 242.113C359.644 251.128 372.231 254.979 407.076 260.062C427.58 263.054 439.119 265.47 449.763 269C483.595 280.22 504.527 302.99 509.518 334.004C510.969 343.016 510.118 359.915 507.766 368.822C505.91 375.857 500.245 388.537 498.742 389.023C498.325 389.158 497.917 387.562 497.81 385.389C497.24 373.744 491.355 362.406 481.472 353.913C470.235 344.257 455.137 336.569 418.223 321.707Z"
+                                fill="currentColor"></path>
+                            <path
+                                d="M379.31 330.978C378.615 326.846 377.411 321.568 376.633 319.25L375.219 315.036L377.846 317.985C381.481 322.065 384.354 327.287 386.789 334.241C388.647 339.549 388.856 341.127 388.842 349.753C388.828 358.221 388.596 359.996 386.88 364.773C384.174 372.307 380.816 377.649 375.181 383.383C365.056 393.688 352.038 399.393 333.253 401.76C329.987 402.171 320.47 402.864 312.103 403.299C291.016 404.395 277.138 406.661 264.668 411.04C262.875 411.67 261.274 412.052 261.112 411.89C260.607 411.388 269.098 406.326 276.111 402.948C285.999 398.185 295.842 395.586 317.897 391.913C328.792 390.098 340.043 387.897 342.9 387.021C369.88 378.749 383.748 357.402 379.31 330.978Z"
+                                fill="currentColor"></path>
+                            <path
+                                d="M404.719 376.105C397.355 360.273 395.664 344.988 399.698 330.732C400.13 329.209 400.824 327.962 401.242 327.962C401.659 327.962 403.397 328.902 405.103 330.05C408.497 332.335 415.303 336.182 433.437 346.069C456.065 358.406 468.966 367.959 477.74 378.873C485.423 388.432 490.178 399.318 492.467 412.593C493.762 420.113 493.003 438.206 491.074 445.778C484.99 469.653 470.85 488.406 450.682 499.349C447.727 500.952 445.075 502.269 444.788 502.275C444.501 502.28 445.577 499.543 447.18 496.191C453.965 482.009 454.737 468.214 449.608 452.859C446.467 443.457 440.064 431.985 427.135 412.596C412.103 390.054 408.417 384.054 404.719 376.105Z"
+                                fill="currentColor"></path>
+                            <path
+                                d="M196.519 461.525C217.089 444.157 242.682 431.819 265.996 428.032C276.043 426.399 292.78 427.047 302.084 429.428C316.998 433.245 330.338 441.793 337.276 451.978C344.057 461.932 346.966 470.606 349.995 489.906C351.189 497.519 352.489 505.164 352.882 506.895C355.156 516.897 359.583 524.892 365.067 528.907C373.779 535.283 388.78 535.68 403.536 529.924C406.041 528.947 408.215 528.271 408.368 528.424C408.903 528.955 401.473 533.93 396.23 536.548C389.177 540.071 383.568 541.434 376.115 541.434C362.6 541.434 351.379 534.558 342.016 520.539C340.174 517.78 336.032 509.516 332.813 502.176C322.928 479.628 318.046 472.759 306.568 465.242C296.579 458.701 283.697 457.53 274.006 462.282C261.276 468.523 257.724 484.791 266.842 495.101C270.465 499.198 277.223 502.732 282.749 503.419C293.086 504.705 301.97 496.841 301.97 486.404C301.97 479.627 299.365 475.76 292.808 472.801C283.852 468.76 274.226 473.483 274.272 481.897C274.292 485.484 275.854 487.737 279.45 489.364C281.757 490.408 281.811 490.491 279.929 490.1C271.712 488.396 269.787 478.49 276.394 471.913C284.326 464.018 300.729 467.502 306.362 478.279C308.728 482.805 309.003 491.82 306.94 497.264C302.322 509.448 288.859 515.855 275.201 512.368C265.903 509.994 262.117 507.424 250.906 495.876C231.425 475.809 223.862 471.92 195.777 467.536L190.395 466.696L196.519 461.525Z"
+                                fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M49.6202 12.0031C114.678 90.9638 214.977 213.901 219.957 220.784C224.068 226.467 222.521 231.576 215.478 235.58C211.561 237.807 203.508 240.063 199.476 240.063C194.916 240.063 189.779 237.867 186.038 234.318C183.393 231.81 172.721 215.874 148.084 177.646C129.233 148.396 113.457 124.131 113.027 123.725C112.032 122.785 112.049 122.817 146.162 183.854C167.582 222.181 174.813 235.731 174.813 237.543C174.813 241.229 173.808 243.166 169.261 248.238C161.681 256.694 158.293 266.195 155.847 285.859C153.104 307.902 145.394 323.473 124.026 350.122C111.518 365.722 109.471 368.581 106.315 374.869C102.339 382.786 101.246 387.221 100.803 397.219C100.335 407.79 101.247 414.619 104.477 424.726C107.304 433.575 110.255 439.417 117.8 451.104C124.311 461.188 128.061 468.683 128.061 471.614C128.061 473.947 128.506 473.95 138.596 471.672C162.741 466.219 182.348 456.629 193.375 444.877C200.199 437.603 201.801 433.586 201.853 423.618C201.887 417.098 201.658 415.733 199.896 411.982C197.027 405.877 191.804 400.801 180.292 392.932C165.209 382.621 158.767 374.32 156.987 362.904C155.527 353.537 157.221 346.928 165.565 329.44C174.202 311.338 176.342 303.624 177.79 285.378C178.725 273.589 180.02 268.94 183.407 265.209C186.939 261.317 190.119 260 198.861 258.805C213.113 256.858 222.188 253.171 229.648 246.297C236.119 240.334 238.827 234.588 239.243 225.938L239.558 219.382L235.942 215.166C222.846 199.896 40.85 0 40.044 0C39.8719 0 44.1813 5.40178 49.6202 12.0031ZM135.412 409.18C138.373 403.937 136.8 397.195 131.847 393.902C127.167 390.79 119.897 392.256 119.897 396.311C119.897 397.548 120.582 398.449 122.124 399.243C124.72 400.579 124.909 402.081 122.866 405.152C120.797 408.262 120.964 410.996 123.337 412.854C127.162 415.849 132.576 414.202 135.412 409.18Z"
+                                fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M248.552 262.244C241.862 264.299 235.358 271.39 233.344 278.826C232.116 283.362 232.813 291.319 234.653 293.776C237.625 297.745 240.499 298.791 248.282 298.736C263.518 298.63 276.764 292.095 278.304 283.925C279.567 277.229 273.749 267.948 265.736 263.874C261.601 261.772 252.807 260.938 248.552 262.244ZM266.364 276.172C268.714 272.834 267.686 269.225 263.69 266.785C256.08 262.138 244.571 265.983 244.571 273.173C244.571 276.752 250.572 280.656 256.074 280.656C259.735 280.656 264.746 278.473 266.364 276.172Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </a>
+                    <a href="https://t.me/upai_wtf" target="_blank"
+                        class="w-10 h-10 rounded-full text-black hover:text-[#f64538] flex items-center justify-center">
+                        <span class="sr-only">Telegram</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 256 256"
+                            xml:space="preserve">
+
+                            <defs>
+                            </defs>
+                            <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                                transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                <path
+                                    d="M 83.924 7.756 L 4.202 38.496 c -5.442 2.183 -5.409 5.219 -0.992 6.571 l 20.455 6.385 l 7.035 23.153 c 0.925 2.553 0.469 3.566 3.151 3.566 c 2.069 0 2.983 -0.946 4.138 -2.069 l 9.941 -9.666 l 20.681 15.28 c 3.806 2.1 6.553 1.012 7.501 -3.533 l 13.577 -63.978 C 91.079 8.631 87.565 6.103 83.924 7.756 z"
+                                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1;"
+                                    fill="currentColor" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                <path
+                                    d="M 33.942 72.016 l -6.747 -22.204 L 79.13 19.002 L 40.751 56.789 L 33.942 72.016 z"
+                                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #ffffff; fill-rule: nonzero; opacity: 1;"
+                                    transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/upai_wtf" target="_blank"
+                        class="w-10 h-10 rounded-full text-black hover:text-[#f64538] flex items-center justify-center">
+                        <span class="sr-only">Twitter</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.0" class="w-6 h-6"
+                            viewBox="0 0 488.000000 459.000000" preserveAspectRatio="xMidYMid meet">
+
+                            <g transform="translate(0.000000,459.000000) scale(0.100000,-0.100000)" fill="currentColor"
+                                stroke="none">
+                                <path
+                                    d="M14 4579 c-2 -3 160 -224 359 -490 199 -266 622 -832 940 -1257 l578 -773 -37 -42 c-21 -23 -446 -482 -944 -1020 -498 -539 -907 -983 -908 -988 -2 -5 85 -9 210 -8 l213 1 70 77 c39 42 401 433 805 870 404 437 746 807 760 823 l25 29 200 -268 c110 -147 413 -553 673 -901 l474 -632 725 0 c603 0 724 2 720 13 -3 8 -187 256 -409 553 -222 296 -476 636 -564 754 -89 118 -350 469 -582 778 -232 310 -422 568 -422 572 0 7 1226 1338 1643 1783 l119 127 -219 0 -218 -1 -255 -276 c-140 -152 -483 -524 -763 -825 l-507 -548 -615 822 -616 823 -725 5 c-399 3 -728 2 -730 -1z m1718 -886 c237 -318 603 -807 813 -1088 210 -280 676 -904 1036 -1385 360 -482 658 -881 663 -888 6 -9 -65 -12 -324 -12 l-331 0 -656 878 c-1514 2023 -2278 3045 -2287 3060 -6 9 62 12 323 12 l331 0 432 -577z">
+                                </path>
+                            </g>
+                        </svg>
+
+                    </a>
+
+                </div>
+                <p class="mt-10 text-center text-xs leading-5 text-gray-500">© 2023 UP<span class="text-sm">ai</span>,
+                    Inc. All rights reserved.</p>
+            </div>
+        </footer>
+
+
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
